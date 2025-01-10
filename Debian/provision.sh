@@ -49,3 +49,4 @@ sudo sed -i 's/^;date.timezone =.*/date.timezone = Europe\/Prague/' /etc/php/7.4
 
 # Restart Apache pro načtení změn
 sudo systemctl restart apache2
+echo "Snad to funguje"
